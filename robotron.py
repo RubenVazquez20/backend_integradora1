@@ -277,5 +277,5 @@ server = ModularServer(Maze,
                        "Room", 
                        {"time": UserSettableParameter("slider","Time",200,1,400,1)}) 
 
-# server.port = 3420
+# server.port = 5000
 # server.launch()

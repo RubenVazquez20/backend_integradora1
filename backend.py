@@ -13,6 +13,7 @@ def create():
     global model
     model = Maze()
 
+    response.port(5000)
     response = jsonify("ok")
     response.status_code = 201
     response.headers['Access-Control-Expose-Headers'] = '*'
